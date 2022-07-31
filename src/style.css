@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: url(/src/assets/body);
+    background-repeat: no-repeat;
+   background-size: cover;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Home Page Css*/
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 2px 0 0 0;
+    color: rgb(165, 63, 134);
+   
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin: 15px 0 10px 0;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+}
+li:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(187, 37, 37);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.2s;
+}
+li:hover:after{
+   width: 100%;
+}
+.first{
+    width: 50%;
+    height: 50%;
+    margin:50px 0 0 200px;
+    border-radius: 30px;
+}
+.welcome,.par1,h3,.time{
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: 25px;
+    margin-left: 500px;
+    
+}
+.welcome{
+    margin-top: 100px;
+    padding: 100px 0 0 0;
+    font-size: 50px;
+}
+.par1{
+    font-size: 20px;
+}
+.time{
+    margin-top: 120px;
+   letter-spacing: 0.5px;
+}
+
+/* Food Page Css*/
+
+.item{
+    padding: 30px 0 10px 0;
+    margin-left: 900px;
+}
+img{
+    height: 400px;
+    width: 700px;
+    margin-left: 600px;
+    margin-top:60px;
+    border-radius: 40px;
+}
+
+/* Con Page Css*/
+
+.con{
+    margin: 100px 0 20px 750px;
+    font-size: 50px;
+}
+.address{
+    margin: 0 0 0 820px;
+    font-size: 30px;
+}
+/* About Page Css*/
+
+.ah1{
+    margin: 100px 0 0 800px;
+}
+.ab{
+    margin: 20px 20px 0 500px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-indent: 150px;
+    text-align: justify;
+}
+.ah2{
+    margin:  30px 0 0 800px;
+}
