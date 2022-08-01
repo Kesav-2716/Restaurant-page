@@ -9,7 +9,7 @@ export function contact(){
   //Address Heading Element Create
 
    const add=document.createElement("h2");
-   add.textContent="Adddress";
+   add.textContent="Address";
    add.classList.add("con");
    contentDiv.appendChild(add);
 
